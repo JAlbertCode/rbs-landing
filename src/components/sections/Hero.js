@@ -68,7 +68,13 @@ const Hero = ({
           </div>
           
           <div className='schedule' >  
-          <iframe src="https://mix3d.setmore.com/bookappointment" scrolling="yes" width="100%" height="100%" frameborder="0"></iframe>
+          <iframe
+              src="https://renewalshop.setmore.com/"
+              scrolling="yes"
+              width="100%"
+              height="100%"
+              frameborder="0"
+            ></iframe>
             </div>
         </div>
       </div>
