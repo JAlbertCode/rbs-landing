@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
-import Input from '../elements/Input';
+// import Input from '../elements/Input';
 
 const propTypes = {
   ...SectionProps.types,
@@ -35,12 +35,12 @@ const Cta = ({
     className
   );
 
-  const innerClasses = classNames(
-    'cta-inner section-inner',
-    topDivider && 'has-top-divider',
-    bottomDivider && 'has-bottom-divider',
-    split && 'cta-split'
-  );  
+  // const innerClasses = classNames(
+  //   'cta-inner section-inner',
+  //   topDivider && 'has-top-divider',
+  //   bottomDivider && 'has-bottom-divider',
+  //   split && 'cta-split'
+  // );  
 
   return (
     <section
