@@ -1,8 +1,8 @@
 import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
-import SectionHeader from './partials/SectionHeader';
-import Image from '../elements/Image';
+// import SectionHeader from './partials/SectionHeader';
+// import Image from '../elements/Image';
 
 const propTypes = {
   ...SectionTilesProps.types
