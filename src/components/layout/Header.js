@@ -80,7 +80,7 @@ const Header = ({
       className={classes}
     >
       <div className="container">
-        <div className={
+        {/* <div className={
           classNames(
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
@@ -126,7 +126,7 @@ const Header = ({
                 </div>
               </nav>
             </>}
-        </div>
+        </div> */}
       </div>
     </header>
   );

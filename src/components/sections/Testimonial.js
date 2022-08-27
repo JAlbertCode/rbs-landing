@@ -44,8 +44,8 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Customer testimonials',
-    paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+    // title: 'Customer testimonials',
+    // paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
   };
 
   return (
@@ -53,7 +53,7 @@ const Testimonial = ({
       {...props}
       className={outerClasses}
     >
-      <div className="container">
+      {/* <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
@@ -111,7 +111,7 @@ const Testimonial = ({
 
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }
